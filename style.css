@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-height: 600px) {
+    #image {
+        height: 400px;
+    }
+}
+
+h2 {
+    margin: 0;
+    color: red;
+    font-size: 42px;
+}
+
+p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-left: 11%;
+    margin-right: 11%;
+    font-size: 32px;
+}
